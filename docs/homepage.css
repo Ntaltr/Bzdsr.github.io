@@ -1,0 +1,132 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+}
+.left{
+	
+	width: 200px;	
+	height: 10000rem;
+	/* background-color:#D0D0D0; */
+	background-color:  	Gainsboro;
+	position:fixed;
+	left:0px;
+	top:0px;
+	font-size: 24px;
+	color:black;
+	opacity: 0.95;
+	/* font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; */
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+.main{
+	position:relative;
+	left: 210px;
+	right: 180px;
+	top:49rem;
+	width: 64.5rem;
+	background: whitesmoke;
+	text-align: left;
+	font: 14px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+	/*不设置宽度，左右两边设置宽度*/
+}
+.right{
+	width: 200px;
+	height: 200rem;
+	background-color:  	Gainsboro;
+	position:fixed;
+	right:0px;
+	top:0px;
+	font-size: 24px;
+	opacity: 0.95;
+	color:black ;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	margin-bottom: 3px;
+}
+.bottom{
+	position: relative;
+	top: 1rem;
+	left: 210px;
+	height: 8rem;
+	width: 64.5rem;
+	color: balck;
+	background-color: whitesmoke;
+	text-align: center;
+}
+.bottom_b{
+	position: relative;
+	top: 1rem;
+	left: 0rem;
+	text-align: center;
+	height: 3rem;
+}
+.thumb{
+	position: fixed;
+	bottom: 9rem;
+	left: 5rem;
+	background-image: url(../HTML/图片素材/3.jpg);
+	
+	font-size: 10px;
+}
+	
+.para{
+		font-size: 14px;
+		position: fixed;
+		bottom: 4rem;
+		left: 2rem;
+}
+.display1{
+	position: absolute;
+	left:39rem;
+	top: 16rem;
+	font-size: 2.1rem;
+}
+.display2{
+	position: absolute;
+	left:29rem;
+	top: 22rem;
+	font-size: 0.9rem;
+}
+
+
+video{  
+    position: absolute;  
+    right: 0px;  
+    bottom: 0px;  
+    width: 100%;  
+    height: 100%;    
+
+ }  
+ source{  
+     min-width: 100%;  
+     min-height: 100%;  
+} 
+
+
+a{
+	text-decoration: none;  //无下划线
+	color:red;
+	
+}
+
+
+a:visited{
+	color:black;
+}
+a:hover{                 //onfocus效果
+	border-radius: 10px;
+	
+	text-decoration: underline;   //聚焦后下划线出现
+	color: whitesmoke;
+	
+	
+}
+hr{
+	opacity: 0.5;
+	
+}
+audio{
+	display: none;
+}
+.right hr{
+	width: 6rem;
+	margin-left: 2.2rem;
+}
