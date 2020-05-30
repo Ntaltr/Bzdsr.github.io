@@ -1,16 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<title>菜鸟教程(runoob.com)</title>
+	<meta charset="utf-8" />
+	<title>Bzdsr的博客</title>
+	<meta name="generator" content="EverEdit" />
+	<meta name="author" content="Bzdsr" />
+	<meta name="keywords" content="博客,CTF,web" />
+	<meta name="description" content="博客" />		
+	<link rel="stylesheet" type="text/css" href="Homepage.css">  
 </head>
-<body>
-	<p>hr 标签定义水平线：</p>
-	<hr />
-	<p>这是段落。</p>
-	<hr />
-	<p>这是段落。</p>
-	<hr />
-	<p>这是段落。</p>
+<body bgcolor="whitesmoke">
+	<audio autoplay="autoplay" loop="loop" controls="controls"
+	src="..\HTML\音乐\1.mp3">       
+	</audio>
+	
+	 <video id="v1" autoplay loop muted>
+	     <source src="1.mov" type="video/mp4"  />
+	 </video>
+	 <script language="javascript">
+	//  var d = new Date()
+	 
+
+	// if (d >= 6 && d < 8) {
+	// 	out.print("早上好,欢迎来到我的博客！");
+	// } else if (hour >= 8 && hour < 11) {
+	// 	out.print("上午好,欢迎来到我的博客！");
+	// } else if (hour >= 11 && hour < 13) {
+	// 	out.print("中午好,欢迎来到我的博客！");
+	// } else if (hour >= 13 && hour < 18) {
+	// 	out.print("下午好,欢迎来到我的博客！");
+	// } else {
+	// 	out.print("晚上好,欢迎来到我的博客！");
+	// }
+	
+	
+	
+	</script>
+	<div class="left">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		Menu
+		<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="HomePage.html">首页</a>
+		<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="联系方式.html">联系</a>
+		
+	</div><div class="right">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html">登录</a>
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;栏目分类</p>
+		
+		<hr>
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="CTF_1.html">CTF</a><br>
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="C语言_1.html">C语言</a><br>
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="游戏1.html">游戏</a><br>
+		<br>
+	
+		
+	</div>
+	<div class="display1">
+		<center><em>Bzdsr的博客</em></center><br>
+		
+	</div>
+	<br>
+	<div class="display2">
+		<em>酒入豪胸，七分酿成了月亮，剩下三分啸成了剑气，绣口一吐就是半个盛唐。<br><br>
+		<center>《寻李白》-&nbsp;&nbsp;余光中</center>
+		</em>
+	</div>
+	<div class="main">
+		<h3>栏目>随笔</h3>
+		
+			<hr>
+			<br>
+			<h4>攻防世界WEB新手区 view-source</h4>
+			<time datetime="2018-3-3">发布时间:2018-4-23 23:35</time>  <!--只是为了好看没实际用处-->
+			<p>
+				摘要：点击获取在线场景 进入场景 这个时候联想到题目的名称view_source 是不是暗示我们查看源代码呢
+		 按下F12 可以看到右边HTML代码中用<!--  -->注释的部分就是flag了。
+		CTF  flag一般都被表示为 flag{xxx} / cyberpeace{xxx} <br>
+			</p>
+			<a href="CTF_1.html">查看全文>></a>
+			<br>
+		
+			<hr>
+			<br>
+			<h4>攻防世界WEB新手区 robots</h4>
+			<time datetime="2018-3-3">发布时间:2018-6-3 13:53</time>  <!--只是为了好看没实际用处-->
+			<p>
+				摘要：点击获取在线场景 进入场景 页面里什么也没有？按下F12看看能不能找找线索 很遗憾没有找到flag，此时想到了题目里提到了Robots协议
+		下面我们在地址栏里加入robots.txt 得到flag
+		补充：
+		什么是Robots协议呢？
+		Robots协议也叫robots.txt 目的是告诉搜索引擎那些内容不可以被爬取<br>
+			</p>
+			<a href="CTF_2.html">查看全文>></a>	
+				<hr>
+				<br>
+				<h4>攻防世界WEB新手区 backup</h4>
+				<time datetime="2018-3-3">发布时间:2019-9-28  9:25</time>  <!--只是为了好看没实际用处-->
+				<p>
+					摘要：点击获取在线场景 进入场景 这里提到了备份文件
+		下面普及一下常见的备份文件后缀名
+		.rar .zip .7z .tar.gz .bak .swp .txt .html .git .svn .swp .~ .bak 
+		.bash_history
+		我们对后缀名逐一尝试 在尝试过http://111.198.29.45:54264/index.php.bak后 给了我们一份文件
+		打开后获取flag <br>
+				</p>
+				<a href="CTF_3.html">查看全文>></a>
+				<br>
+			
+				<hr><br>
+				<h4>PTA 7-2  然后是几点</h4>
+				<time datetime="2018-3-3">发布时间:2018-3-3  22:43</time>  <!--只是为了好看没实际用处-->
+				<p>
+							摘要：题干如下：
+		有时候人们用四位数字表示一个时间，比如1106表示11点零6分。现在，你的程序要根据起始时间和流逝的时间计算出终止时间。
+		读入两个数字，第一个数字以这样的四位数字表示当前时间，第二个数字表示分钟数，
+		
+				</p>
+				<a href="C语言_1.html">查看全文>></a>
+				<br><hr>
+				<br>
+						<h4>冒泡排序</h4>
+						<time datetime="2018-3-3">发布时间:2018-6-12 18:38</time>  <!--只是为了好看没实际用处-->
+						<p>
+						摘要：写在大一，大佬勿喷 
+			问题描述 ：输入十个数字，用冒泡排序法，从小到大依次排序 
+			第一次见到这种排序的题目，有点懵。所以简化为 5个数字排序 
+			写出例子 
+			从小到大 
+			8 5 4 6 3 
+			第一趟循环
+			5 4 6 3 8
+				</p>
+						<a href="C语言_2.html">查看全文>></a>
+						<br>
+						<br>
+						<br>
+			<center>
+				<br><br>
+				This blog has running : 919 d 9 h 16 m 39 <br>
+				Copyright © 2020 MustaphaMond Powered by .NET Core on Kubernetes <br>
+				Theme version: v1.3.0 / Loading theme version: v1.3.0 <br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</center>
+	</div>
 </body>
 </html>
+
